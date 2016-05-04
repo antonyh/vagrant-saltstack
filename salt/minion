@@ -1,0 +1,12 @@
+## Use local files
+file_client: local
+
+## Location of salt states and files
+file_roots:
+  base:
+    - /srv/salt
+
+## Location of Pillar data
+pillar_roots:
+  base:
+    - /srv/salt/pillar
